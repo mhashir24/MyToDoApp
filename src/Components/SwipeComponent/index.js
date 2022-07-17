@@ -24,6 +24,7 @@ export default function SwipeButtonCustom({
   onEdit,
   toggleBottomNavigationView,
 }) {
+  console.log(index, 'index')
   const leftButton = (
     <SwipeButtonsContainer
       style={{
